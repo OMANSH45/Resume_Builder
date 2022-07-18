@@ -18,12 +18,13 @@ import { ReactReduxFirebaseProvider, getFirebase } from 'react-redux-firebase';
 // Ye extension hame yaad rakni hai 
 import { composeWithDevTools } from 'redux-devtools-extension'
 var firebaseConfig = {
-  apiKey: "AIzaSyAmzELW9wLnRhnHb07pcC_lwLIG-V-TPWs",
-  authDomain: "resume-builder-8b5c5.firebaseapp.com",
-  projectId: "resume-builder-8b5c5",
-  storageBucket: "resume-builder-8b5c5.appspot.com",
-  messagingSenderId: "387539545907",
-  appId: "1:387539545907:web:77c16007e1e45b15fe9846"
+  apiKey: "AIzaSyCSSEp95EmggHxZzL7xzdNXJ5cvsgujm1k",
+  authDomain: "resumebuilder-od.firebaseapp.com",
+  projectId: "resumebuilder-od",
+  storageBucket: "resumebuilder-od.appspot.com",
+  messagingSenderId: "417632908232",
+  appId: "1:417632908232:web:4cf7b305744e1b8dcb06fd",
+  measurementId: "G-LHJHKK0ZM8"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
